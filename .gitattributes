@@ -1,0 +1,50 @@
+#
+# .gitattributes
+#
+
+## GENERAL ##
+
+*				text=auto
+
+
+## SOURCE CODE ##
+
+*.c				eol=lf diff=cpp
+*.h				eol=lf diff=cpp
+*.cpp			eol=lf diff=cpp
+*.hpp			eol=lf diff=cpp
+
+
+## SCRIPTS ##
+
+*.sh			eol=lf
+Makefile		eol=lf
+*.mk			eol=lf
+*.make			eol=lf
+*.makefile		eol=lf
+CMakeLists.txt	eol=lf
+*.cmake			eol=lf
+*.py			eol=lf diff=python
+
+
+## TEXT & MARKUP ##
+
+*.txt			eol=crlf
+*.md			eol=crlf diff=markdown
+*.mkdn			eol=crlf diff=markdown
+*.markdown		eol=crlf diff=markdown
+*.rst			eol=lf
+*.adoc			eol=lf
+
+
+## BINARY FILES ##
+
+*.wav			binary
+*.gz			binary
+*.bz2			binary
+*.xz			binary
+*.lzo			binary
+*.lz4			binary
+*.zst			binary
+*.zip			binary
+*.tar			binary
